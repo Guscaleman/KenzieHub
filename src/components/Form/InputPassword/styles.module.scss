@@ -1,0 +1,24 @@
+.input__box {
+	.input__grid {
+		position: relative;
+	}
+
+	.button__eye {
+		position: absolute;
+		right: 1rem;
+		top: 0.55rem;
+
+		background-color: transparent;
+		border: none;
+	}
+}
+
+@media (max-width: 425px) {
+	.input__box {
+		.input__grid {
+			.button__eye {
+				right: -1rem;
+			}
+		}
+	}
+}

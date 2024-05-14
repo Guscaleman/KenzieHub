@@ -1,0 +1,40 @@
+h1 {
+	color: var(--grey-0);
+	font-size: var(--title1-size);
+	font-family: var(--font-primary);
+	font-weight: var(--title-weight);
+}
+
+h2 {
+	color: var(--grey-0);
+	font-size: var(--title2-size);
+	font-family: var(--font-primary);
+	font-weight: var(--title-weight);
+}
+
+.headline {
+	color: #ffffff;
+	font-size: var(--headline-size);
+	font-family: var(--font-primary);
+	font-weight: var(--headline-regular);
+}
+
+.headline-bold {
+	color: var(--grey-1);
+	font-size: var(--headline-size);
+	font-family: var(--font-primary);
+	font-weight: var(--headline-bold);
+}
+
+.paragraph {
+	text-align: center;
+	color: #ffffff;
+	font-size: var(--paragraph-size);
+	font-family: var(--font-primary);
+	font-weight: var(--paragraph-weight);
+}
+
+.error-msg {
+	color: var(--grey-1);
+	font-size: var(--headline-size);
+}

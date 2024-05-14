@@ -1,0 +1,102 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	gap: 2rem;
+
+	.register_header {
+		width: 315px;
+		display: flex;
+		justify-content: space-between;
+
+		img {
+			max-width: fit-content;
+		}
+
+		a,
+		button {
+			background-color: var(--grey-3);
+			font-family: var(--font-primary);
+			font-size: var(--headline-size);
+			color: var(--grey-0);
+			border-radius: 0.25rem;
+			padding: 0.75rem;
+			text-decoration: none;
+		}
+	}
+
+	.content {
+		border-radius: 0.25rem;
+		background-color: var(--grey-3);
+		box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+
+		h1 {
+			margin-top: 2.5rem;
+			margin-bottom: 1rem;
+			text-align: center;
+		}
+
+		.message {
+			color: var(--grey-1);
+			font-family: var(--font-primary);
+			font-size: 0.75rem;
+			text-align: center;
+			margin-block: 2.25rem;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 1rem;
+
+			height: 80%;
+			width: 20rem;
+
+			button {
+				width: 84.5%;
+				padding-block: 0.75rem;
+				margin-block: 1rem;
+			}
+		}
+
+		label {
+			width: 100%;
+			text-align: left;
+			padding-left: 1.6rem;
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.container {
+		.register_header {
+			width: 90%;
+			img {
+				max-width: fit-content;
+			}
+		}
+		.content {
+			max-width: 95%;
+			form {
+				width: 100%;
+				div {
+					width: 90%;
+					input {
+						width: 330px;
+					}
+					select {
+						width: 100%;
+					}
+				}
+				button {
+					width: 90%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.select-default {
+	border-radius: 0.25rem;
+	border: 1.218px solid #343b41;
+	background-color: var(--grey-2);
+
+	font-family: var(--font-primary);
+	font-size: 1.01519rem;
+	font-weight: 400;
+	color: #868e96;
+	padding: 0.5rem 0.75rem;
+	width: 270px;
+
+	&:focus {
+		border-color: #f8f9fa;
+		color: #f8f9fa;
+	}
+}
